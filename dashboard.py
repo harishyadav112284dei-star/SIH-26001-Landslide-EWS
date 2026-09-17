@@ -158,10 +158,10 @@ def get_terrain_data(latitude, longitude):
 # PROJECT PATHS
 # ============================================================
 
-BASE_DIR = Path(__file__).resolve().parent.parent
+BASE_DIR = Path(__file__).resolve().parent
 
-TERRAIN_FILE = BASE_DIR / "data" / "terrain_data.csv"
-MODEL_FILE = BASE_DIR / "model" / "landslide_model.pkl"
+TERRAIN_FILE = BASE_DIR / "terrain_data.csv"
+MODEL_FILE = BASE_DIR / "landslide_model.pkl"
 
 
 # ============================================================
